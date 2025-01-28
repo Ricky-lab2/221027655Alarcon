@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="info">
+                <img src="Me.jpg.png" alt="Your Photo" width="100" height="100">
+                <div>
+                    <h1>Ricky Alarcon</h1>
+                    <p>Email: Ricky20@gmail.com | Phone: (+63) 9855432875</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="section" id="personal-statement">
+            <h2>About me</h2>
+            <p>I am a diligent and dedicated individual with a strong work ethic and a passion for learning. Throughout my academic journey, I have demonstrated a commitment to achieving excellence by studying hard and consistently performing at the top of my class. My ability to balance multiple responsibilities and stay organized has allowed me to successfully complete various projects on time.</p>
+        </section>
+
+        <button class="toggle-btn" onclick="toggleSection('education')">Education</button>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Degree</strong> - University Of The Cordilleras, 2022 - 2025</li>
+                <li><strong>Projects</strong> - Capstone Project: AI-driven Data Analysis for Predictive Modeling</li>
+                <li><strong>Research</strong> - Investigating Machine Learning Techniques for Natural Language Processing</li>
+            </ul>
+        </section>
+
+        <button class="toggle-btn" onclick="toggleSection('experience')"> Work Experience</button>
+        <section class="section" id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Internship</strong>Trizztan Reggae-PC, 2024
+                    <ul>
+                        <li>Software Development Intern</li>
+                        <li>- Assisted in developing new features for the company’s web application.</li>
+                        <li>- Collaborated with senior developers to troubleshoot and debug code.</li>
+                    </ul>
+                </li>
+                <li><strong>Capstone Project</strong>AI-driven Data Analysis for Predictive Modeling
+                    <ul>
+                        <li>- Developed a machine learning model to predict customer behavior using Python.</li>
+                        <li>- Analyzed large datasets and presented findings in a detailed report.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <button class="toggle-btn" onclick="toggleSection('skills')"> Skills</button>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Excellent verbal and written communication skills</li>
+                <li>Effective in managing time and meeting deadlines</li>
+                <li>Proficiency in multiple languages (English, Spanish, Filipino)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="bio">
+            <h2>Bio</h2>
+            <div class="bio">
+                <p><strong>Eye Color:</strong> Brown</p>
+                <p><strong>Hair Color:</strong> Black</p>
+                <p><strong>Height:</strong> 172cm</p>
+                <p><strong>Weight:</strong> 51kg</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
